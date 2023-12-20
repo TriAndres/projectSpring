@@ -1,0 +1,23 @@
+Spring Boot Rest API | Полный курс
+https://www.youtube.com/watch?v=DJvjz5d6pLo&list=PL7PU-KjJUFVeSLYpBiD1--NME8hbvhjx2&index=1
+
+Зависимости:
+
+Spring Boot DevTools
+Spring Web
+Spring Data JPA
+PostgreSQL Driver
+
+
+Настройка по видео:
+
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.datasource.url=jdbc:postgresql://localhost:5432/students
+spring.datasource.username=postgres
+spring.datasource.password=12345R
+#spring.jpa.generate-ddl=true
+
+CREATE DATABASE students  - создание базы данных
+
+select * from student
+
